@@ -3,10 +3,10 @@
 <form action="/compose" method="POST">
 
     <label for="postTitle" class="form-label">Title</label>
-    <input type="email" class="form-control" id="postTitle">
+    <input type="text" class="form-control" name="postTitle" id="postTitle">
 
     <label for="postMessage" class="form-label">Post</label>
-    <textarea class="form-control" id="postMessage" rows="5" cols="30"></textarea>
+    <textarea class="form-control" id="postMessage" name="postMessage" rows="5" cols="30"></textarea>
 
     <button type="submit" class="btn btn-primary" id="publish-btn">Publish</button>
 </form>
