@@ -43,3 +43,11 @@ form label {
     border-color: #52c41a;
     background-color: #52c41a;
 }
+
+#home-message {
+    display: flex;
+}
+
+#home-message a{
+    margin-left: 10px;
+}
