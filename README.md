@@ -5,11 +5,12 @@ Start your new blogging website with this template!
 * Routing with EJS & express.js
 * Passing information from pages using express.js
 * Use lodash.js for better routing
-* Better use of parties for EJS
+* Better use of partials for EJS
 ## Instructions to run ##
 1. Install packages by running `npm install`
-2. Run local server by entering `nodemon app.js` || `node app.js`
-3. 3. Open `localhost:3000/`
+2. Add your mongoAtlas url in `mongoose.connect()`
+3. Run local server by entering `nodemon app.js` || `node app.js`
+4. Open `localhost:3000/`
 ## Different directories ##
 * Home `localhost:3000/`
 * Create a post `localhost:3000/compose`
