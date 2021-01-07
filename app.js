@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //Conect DB
-mongoose.connect(`mongodb+srv://@cluster0.cpc8z.mongodb.net/blogDB`, {user: process.env.MONGO_PASSWORD, pass: process.env.MONGO_PASSWORD,useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true});
+mongoose.connect(`mongodb+srv://@cluster0.cpc8z.mongodb.net/blogDB`, {user: process.env.MONGO_USERNAME, pass: process.env.MONGO_PASSWORD,useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true});
 
 const postSchema = {
   title: String,
